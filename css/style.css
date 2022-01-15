@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url('../fonts/Gilroy-Bold.woff') format('woff');
+}
 * {
     padding: 0;
     margin: 0;
@@ -5,15 +9,18 @@
 }
 body {
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #070707
 }
 .wrapper {
     width: 70%;
     max-width: 940px;
     margin: 0 auto;
 }
-header {
-    
+
+/*Header*/
+.header {
+    height: 100vh;
 }
 .nav {
     padding: 22px 0;
@@ -32,7 +39,6 @@ header {
 }
 .menu_item:hover .menu_link {
     color: #070707;
-    font-weight: bold;
 }
 
 .menu_link {
@@ -41,15 +47,103 @@ header {
     text-shadow: 1px 2px 2px #d4e3e7;
     transition: color 0.2s;
 }
-.banner {
-    margin-bottom: 100px;
-}
 .banner_title {
     font-size: 47px;
     font-weight: bold;
     margin-bottom: 40px;
 }
-.banner_img {
-    height: 390px;
-    width: 945px;
+.banner_img{
+    width: 100%;
+}
+
+/*About Me*/
+.about {
+    height: 520px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.title2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 34px;
+}
+.about_text p{
+    margin: 30px 0 45px 0;
+}
+
+/*Skills*/
+.skills {
+    height: 590px;
+    text-align: center;
+}
+.skills_item {
+    display: inline-block;
+    width: 25%;
+    height: 230px;
+    margin-left: -4px;
+    margin-top: 80px;
+}
+.skills_logo {
+    height: 90px;
+    margin-bottom: 25px;
+}
+.skills_item:last-child .tool_name{
+    padding-bottom: 17px;
+}
+.tool_name {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 60px;
+}
+.skills_star {
+    margin-right: 5px;
+}
+
+/*Portfolio*/
+.portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.portfolio_site-name {
+    text-decoration: underline;
+    padding-bottom: 125px;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    height: 100vh;
+}
+.button {
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #070707;
+    border-radius: 100px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+}
+.footer_content {
+    padding-bottom: 80px;
+}
+.social {
+    margin-bottom: 45px;
+}
+.social_logo {
+    display: inline-block;
+    margin: 0 30px;
+}
+.social_logo img {
+    width: 40px;
+    height: 40px;
+}
+.footer_like-me {
+    font-size: 14px;
+    color: #828282;
+    line-height: 19px;
 }

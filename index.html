@@ -13,24 +13,24 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="wrapper">
             <nav class="nav">
                 <ul class="menu">
                     <li class="menu_item">
-                        <a href="#" class="menu_link">Home</a>
+                        <a href="#home" class="menu_link">Home</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link">About Me</a>
+                        <a href="#about" class="menu_link">About Me</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link">Skills</a>
+                        <a href="#skills" class="menu_link">Skills</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link">Portfolio</a>
+                        <a href="#portfolio" class="menu_link">Portfolio</a>
                     </li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link">Contacts</a>
+                        <a href="#contacts" class="menu_link">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -42,91 +42,96 @@
     </header>
 
     <main class="main">
-        <section class="about">
+        <section class="about" id="about">
             <div class="wrapper">
-                <h2 class="title2">About Me</h2>
-                <p>
-                    Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.
-                </p>
-                <p>
-                    I'm studying at courses "Web and mobile design interfaces" in IT-Academy.
-                </p>
-                <p>
-                    Ready to implement excellent projects with wonderful people.
-                </p>
+                <h2 class="title2">About me</h2>
+                <div class="about_text">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects <br>with wonderful people.</p>
+                </div>
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="wrapper">
                 <h2 class="title2">Skills</h2>
                 <p>
                     I work in such programs as
                 </p>
                 <div class="skills_item">
-                    <img src="" alt="">
-                    <p></p>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img class="skills_logo" src="./img/photoshop.png" alt="">
+                    <p class="tool_name">Adobe <br> Photoshop</p>
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-white.png" alt="">
                 </div>
                 <div class="skills_item">
-                    <img src="" alt="">
-                    <p></p>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img class="skills_logo" src="./img/ilustrator.png" alt="">
+                    <p class="tool_name">Adobe <br> Illustrator</p>
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-white.png" alt="">
+                    <img class="skills_star" src="./img/star-white.png" alt="">
                 </div>
                 <div class="skills_item">
-                    <img src="" alt="">
-                    <p></p>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img class="skills_logo" src="./img/after-effects.png" alt="">
+                    <p class="tool_name">Adobe <br> After Effects</p>
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-white.png" alt="">
                 </div>
                 <div class="skills_item">
-                    <img src="" alt="">
-                    <p></p>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img class="skills_logo" src="./img/figma.png" alt="">
+                    <p class="tool_name">Figma</p>
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-black.png" alt="">
+                    <img class="skills_star" src="./img/star-white.png" alt="">
                 </div>
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="wrapper">
                 <h2 class="title2">Portfolio</h2>
-                <div class="portfolio_item"></div>
-                <div class="portfolio_item"></div>
-                <div class="portfolio_item"></div>
+                <div class="portfolio_item">
+                    <img class="portfolio_jpg" src="./img/fashion-store_web.jpg" alt="">
+                    <p class="portfolio_site-name">Online fashion store - <br> Homepage</p>
+                </div>
+                <div class="portfolio_item">
+                    <img class="portfolio_jpg" src="./img/reebok_web.jpg" alt="">
+                    <p class="portfolio_site-name">Reebok Store - Concept</p>
+                </div>
+                <div class="portfolio_item">
+                    <img class="portfolio_jpg" src="./img/braun_web.jpg" alt="">
+                    <p class="portfolio_site-name">Braun Landing Page - Concept</p>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="wrapper">
             <h2 class="title2">Contacts</h2>
-            <p>
-                Want to know more or just chat? You are welcome!
+            <p class="footer_content">
+                Want to know more or just chat? <br> You are welcome!
             </p>
-            <button>Send message</button>
+            <button class="button">Send message</button>
             <div class="social">
-                <img class="social_logo" src="" alt="">
-                <img class="social_logo" src="" alt="">
-                <img class="social_logo" src="" alt="">
-                <img class="social_logo" src="" alt="">
+                <a class="social_logo" href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt=""></a>
+                <a class="social_logo" href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt=""></a>
+                <a class="social_logo" href="https://www.behance.net/" target="_blank"><img src="./img/behance.png" alt=""></a>
+                <a class="social_logo" href="https://dribbble.com/" target="_blank"><img src="./img/dribble.png" alt=""></a>
             </div>
-            <p>
-                Like me on LinkedIn, Instagram, Behance, Dribble
+            <p class="footer_like-me">
+                Like me on <br> LinkedIn, Instagram, Behance, <br> Dribble
             </p>
         </div>
     </footer>
